@@ -1,21 +1,19 @@
-const div = dom.create("<div>new</div>");
-const div2 = dom.create("<div>later</div>");
-dom.after(jiejie,div)
-dom.before(div,div2)
+// let div = dom.create('<div>hello</div>')
 
-dom.append(div2 , dom.create("<span> hi</span>"))
+// console.log(div);
+// dom.after(div,jiejie)
 
-dom.wrap(div2, dom.create("<a href='baidu.com'></a>"));
+// console.log(123);
+console.log(dom.style(sp,'font-size'));
 
-dom.remove(div)
+const fn = ()=>{
+  console.log(123456);
+}
 
-// console.log(dom.empty(ep));
+dom.on(sp,'click',fn);
 
-dom.attr(opop,'data-jie',"jie")
+dom.off(sp,'click', fn)
 
-dom.text(opop,'hihi')
-dom.html(opop,"<a href='baidu.com'>百度一下</a>")
+console.log(dom.siblings(dom.find('#e2')[0]));
 
-dom.style(opop,{border:"1px solid #000","color":"red"})
-dom.class.add(opop,"hov");
-
+dom.each(ep.children,(n) => dom.style(n,'color','red'));
