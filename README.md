@@ -7,10 +7,10 @@ yarn global add parcel | npm i -g parcel
 
 git clone https://github.com/jiejie-coding/Package-DOM.git
 
-# normal:
+# normal（对象风格）:
 
 parcel normal/src/index.html
 
-# jQuery:
+# jQuery（jQuery风格）:
 
 parcel jQuery/src/index.html
