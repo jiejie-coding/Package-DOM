@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <title>Document</title>
+  <style>
+    .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 80vw;
+      height: 80vh;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      border: 1px solid #000;
+    }
+    .content {
+      /* border:1px solid red; */
+      text-align: center;
+      
+    }
+    .content div {
+      height: 30px;
+      line-height: 30px;
+    }
+    .content a {
+      text-decoration: none;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+    <div class="main">
+      <div class="content">
+        <h2>两种不同风格封装DOM库</h2>
+        <div><a href="https://github.com/jiejie-coding/Package-DOM/blob/master/normal/src/dom.js">对象风格</a></div>
+        <div><a href="normal/src/dom.js">jQuery风格</a></div>
+      </div>
+    </div>
+</body>
+</html>
