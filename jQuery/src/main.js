@@ -1,2 +1,3 @@
+let $ = jQuery;
 
-jQuery('.test').find('.child').addClass('jiejie').end().addClass('bin').children().print()
+$('.test').find('.child').parent().end().addClass('xiaozi');
